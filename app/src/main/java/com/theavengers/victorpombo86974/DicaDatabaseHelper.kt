@@ -36,7 +36,7 @@ class DicaDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_
     fun insertDica(titulo: String, descricao: String) {
         val db = writableDatabase
 
-        // Verifica se o título já existe
+
         val cursor = db.query(
             TABLE_DICAS,
             arrayOf(COLUMN_ID),

@@ -39,8 +39,8 @@ class DicaAdapter(
 
 
     fun updateData(newDicas: List<Dica>) {
-        dicas.clear() // Limpa a lista existente
-        dicas.addAll(newDicas) // Adiciona os novos dados
+        dicas.clear()
+        dicas.addAll(newDicas)
         notifyDataSetChanged()
     }
 
@@ -51,8 +51,8 @@ class DicaAdapter(
 
 
     fun removeDicaAt(position: Int) {
-        dicas.removeAt(position) // Remove a dica da lista
-        notifyItemRemoved(position) // Atualiza o RecyclerView
+        dicas.removeAt(position)
+        notifyItemRemoved(position)
     }
 
     class DicaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

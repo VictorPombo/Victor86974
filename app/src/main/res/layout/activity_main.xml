@@ -8,6 +8,16 @@
     tools:context=".MainActivity"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/tvInstrucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para excluir uma dica, arraste ela para a direita"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black" />
+
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"

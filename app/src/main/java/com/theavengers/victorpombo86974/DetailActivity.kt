@@ -26,7 +26,7 @@ class DetailActivity : AppCompatActivity() {
 
 
     override fun onSupportNavigateUp(): Boolean {
-        finish() // Fecha a atividade atual e retorna à anterior
+        finish()
         return true
     }
 }
